@@ -1,7 +1,9 @@
 /**
  * Single source for site-wide configuration.
  *
- * S3 bucket is `jiapp-downloads-899088266605` in eu-central-1.
+ * S3 bucket name is `jiapp-downloads-{account}` in eu-central-1.
+ * When the bucket exists and has been populated with a real APK, replace
+ * REPLACE_ME with the AWS account id.
  *
  * NOTE: use the regioned virtual-hosted form (`s3.{region}.amazonaws.com`)
  * rather than the global form, because the publisher uploads to the
